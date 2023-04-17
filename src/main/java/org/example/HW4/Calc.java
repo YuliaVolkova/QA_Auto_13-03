@@ -15,10 +15,16 @@ public class Calc {
     }
 
     public static double div(int n, double m) {
-        return n/m;
+
+            if (m == 0) {
+                System.out.println("ERROR / by zero");
+                return 0;
+
+            }
+            return n/m;
     }
 
     public static double per(int n, double m) {
-        return n%m;
+        return ((n*100)/m);
     }
 }

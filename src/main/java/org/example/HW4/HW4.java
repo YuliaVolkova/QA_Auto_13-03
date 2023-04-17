@@ -9,6 +9,7 @@ public class HW4 {public static void main(String[] args) {
     double number2;
     double result = 0;
     char symbol;
+    float per;
     System.out.println("enter second number");
     number2=scanner.nextDouble();
     System.out.println("enter symbol of operation");
